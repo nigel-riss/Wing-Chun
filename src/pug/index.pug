@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Wing-Chun
+
+        link(rel="stylesheet", href="styles.css")
+        
+    body
+        header.hero
+            button.menu-button: .menu-button__middle
+
+            .hero__top
+                .logo
+                    img(src="#", alt="Логотип школы Вин-Чун Улыбка Дракона")
+                    .logo__text
+                        p.logo__title Всероссийская школа боевого искусства
+                        p.logo__subtitle Вину-Чун "Улыбка дракона"
+
+                .hero__nav
+                    nav.main-nav
+                        ul.main-nav__list
+                            li.main-nav__item
+                                a.main-nav__link(href="#") Главная
+                            li.main-nav__item
+                                a.main-nav__link(href="#") Что получит ребёнок
+                            li.main-nav__item
+                                a.main-nav__link(href="#") Программа
+                            li.main-nav__item
+                                a.main-nav__link(href="#") Преимущества
+
+                .hero__contacts
+                    .contacts
+                        a.contacts__phone(href="tel:+79521114367") +7 (952) 111 43 67
+                        .contacts__address
+                            p.contacts__city Калининград
+                            p.contacts__street Московский проспект, д. 99
+
+            .hero__content
+                .hero__caption
+                    .hero-caption
+                        p.hero-caption__motto Летний спортивно-оздоровительный лагерь для детей от 6 лет «Улыбка дракона 2019»
+                        h1.hero-caption__title Подарите ребёнку незабываемое летнее приключение
+                        p.hero-caption__cta Регистрируйтесь прямо сейчас!
+
+                    .hero__button
+                        a.button.button--ghost(href="#") Подробнее
+
+                    .hero__specify
+                        .specify-item
+                            p.specify-item__text <strong>Полностью безопасный отдых</strong>на природе с программой физического развития
+                        .specify-item
+                            p.specify-item__text <strong>Трёхразовое питание,</strong>проживание в палатках и летних домиках
+
+                .hero__form
+                    .form-contact
+                        form.form(action="")
+                            legend.form__legend
+                                p.form__subtitle Осталось всего 8 мест в каждую смену
+                                h2.form__title Запишите своего ребёнка в лагерь
+
+                            .form__input-group
+                                input.form__input(type="text" name="name" placeholder="Имя" required)
+
+                            .form__input-group
+                                input.form__input(type="tel" name="phone" placeholder="Телефон" required)
+
+                            .form__input-group
+                                input.form__input(type="email" name="email" placeholder="Email" required)
+
+                            .form__input-group
+                                select.form__input(name="camp")
+                                    option(value="pathfinder") "Следопыт" с 7 по 12 июня.
+                                    option(value="dragon") "Улыбка дракона" с 10 по 24 августа.
+
+                            .form__input-group
+                                input.form__checkbox(type="checkbox" name="policy" required checked)
+                                label(for="form__checkbox").form__label-checkbox Принимаю <a class="form__policy" href="#">Условия пользования</a> и <a class="form__policy" href="#">Политику безопасности</a>
+                            
+                            .form__input-group
+                                input.form__submit.cta-button(type="sybmit" value="Подать заявку")
+
+        section.gain
+            .gain__logo
+                .logo.logo--big
+                    img(src="#", alt="Логотип школы Вин-Чун Улыбка Дракона")
+            
+            header.section__header
+                h2.section__title Что ваш ребёнок получит от участия?
+                p.section__subtitle Здесь всё способствует усвоению знаний и динамическому росту мастерства учеников
+
+            .gain__items
+                article.gain-item
+                    h3.gain-item__title Спортвные навыки
+                    .gain-item__logo
+                        img(src="#", alt="")
+                    p.gain-item__text Совершенствование навыков спортивного мастерства с лучшими мастерами ВИН-ЧУН
+                    .gain-item__cta
+                        a.button.button--red(href="#") Записаться
+                
+                article.gain-item
+                    h3.gain-item__title Навыки товарищества и взаимопомощи
+                    .gain-item__logo
+                        img(src="#", alt="")
+                    p.gain-item__text Развитие у молодёжи чувство товарищества и взаимопомощи
+                    .gain-item__cta
+                        a.button.button--red(href="#") Записаться
+
+                article.gain-item
+                    h3.gain-item__title Отдых и досуг
+                    .gain-item__logo
+                        img(src="#", alt="")
+                    p.gain-item__text Мини-походы в лес, вечера музыкальной импровизации, знакомство со славянскими и восточными культурами и многое другое
+                    .gain-item__cta
+                        a.button.button--red(href="#") Записаться
+
+                article.gain-item
+                    h3.gain-item__title Психологическое воспитание и развитие
+                    .gain-item__logo
+                        img(src="#", alt="")
+                    p.gain-item__text Привите навыков экологического общения с природой, воспитание морально-этических принципов и норм поведения в обществе, адекватности и дисциплины
+                    .gain-item__cta
+                        a.button.button--red(href="#") Записаться
+
+                article.gain-item
+                    h3.gain-item__title Привитие здорового образа жизни
+                    .gain-item__logo
+                        img(src="#", alt="")
+                    p.gain-item__text Пропаганда боевых и оздоровительных систем как эффективного средства активного отдыха, способствующего поддержанию здорового образа жизни
+                    .gain-item__cta
+                        a.button.button--red(href="#") Записаться
+
+                article.gain-item
+                    h3.gain-item__title Воспитание
+                    .gain-item__logo
+                        img(src="#", alt="")
+                    p.gain-item__text Развитие творческого потенциала, умение преобразовать агрессию в творческие способности
+                    .gain-item__cta
+                        a.button.button--red(href="#") Записаться
+
+        section.program
+            header.section__header
+                h2.section__title Распорядок дня
+                p.section__subtitle Это не просто отдых, это развитие!
+                
+            .program__content
+                 .program__banner
+                    h2.program__caption Комплексная программа лагеря
+                    p.program__desc Включает в себя занятия по целому комплексу направлений. Обеспечивая сбалансированное развитие сил и творческих навыков детей.
+                    .program__cta
+                        a.button(href="#") Записаться
+
+                 .program__scheldue
+
+                    .program__timeline
+                        ul.timeline
+                            li.timeline__event
+                                p.timeline__point <strong>7.30</strong> - Подъём, зарядка, дыхательная гимнастика, водные процедуры
+                            li.timeline__event
+                                p.timeline__point <strong>9.00</strong> - Завтрак
+                            li.timeline__event
+                                p.timeline__point <strong>09.30</strong> - Уборка в палатках и на территории
+                            li.timeline__event
+                                p.timeline__point <strong>10.00</strong> - Мастер-классы
+                            li.timeline__event
+                                p.timeline__point <strong>12.30</strong> - Тренировки, подвижные игры
+                            li.timeline__event
+                                p.timeline__point <strong>13.30</strong> - Свободное время
+                            li.timeline__event
+                                p.timeline__point <strong>14.00</strong> - Обед
+                            li.timeline__event
+                                p.timeline__point <strong>14.30</strong> - Творческие мастерские
+                            li.timeline__event
+                                p.timeline__point <strong>17.00</strong> - Мастер-классы
+                            li.timeline__event
+                                p.timeline__point <strong>19.15</strong> - Ужин
+                            li.timeline__event
+                                p.timeline__point <strong>19.45</strong> - Культурно - досуговые мероприятия
+                            li.timeline__event
+                                p.timeline__point <strong>21.00</strong> - "Круг у костра"
+                            li.timeline__event
+                                p.timeline__point <strong>22.00</strong> - Отбой
+                    .program__deco
+                        img(src="#", alt="")
+
+            .program__include
+                .include-item
+                    h4.include-item__title Тренировки
+                    p.include-item__text Занятия Вин-Чун и восточными единоборствами
+
+                .include-item
+                    h4.include-item__title Творчество
+                    p.include-item__text Творческие мастер-классы по различным направлениям
+
+                .include-item
+                    h4.include-item__title Активный отдых
+                    p.include-item__text Походы и совместные мероприятия в лесу
+
+        section.banner
+            .banner__logo
+                .logo.logo--middle
+                    img(src="#", alt="")
+
+            .banner__content
+                h2.banner__title Это не просто отдых, это развитие
+                p.banner__text Здесь всё способствует усвоению знаний и динамическому росту мастерства учеников
+                .banner__cta
+                    a.button.button--ghost(href="#") Записаться
+
+            .banner__deco
+                img(src="#", alt="")
+
+        section.gallery
+
+        section.master
+            header.section__header
+                h2.section__title Кто ведёт занятия
+                p.section__subtitle Тренера и преподаватели
+
+            .master__info
+                .master__progress
+                    .master__main
+                        p.master__name Морозов Вячеслав
+                        p.master__class Тренер-инструктор федерация ушу России
+                        p.master__text Организатор соревнований, фестивалей, семинаров, сборов по Ушу и Вин-Чун в г. Калининграде и области
+                        .master__logo
+                            .logo
+                                img(src="#", alt="")
+
+                    .master__about
+                        h3.master__about__rubric О мастере
+                        ul.master-about
+                            li.master-about__item Аттестован федерацией ушу России как тренер-инструктор, специализация традиционное ушу в 2013г.
+                            li.master-about__item 4 дан/дуань по ушу федерации ушу России.
+                            li.master-about__item Обучается у мастера Ли Хен Чена в г. Гонконг с 2014г.
+                            li.master-about__item Обучается у мастера Михаила Швецова г. Москва с 2013г.
+                            li.master-about__item Завершил обучение в БФУ им Канта по специальности «Физическая культура и спорт».
+                            li.master-about__item Специалист центра восточных культур.
+                            li.master-about__item Исполнительный директор федерации ушу Калининградской области.
+
+                .master__achieve
+                    .achieve-item
+                        p.achieve-item__text Серебряный призёр чемпионата России по традиционному ушу в 2013г.
+                    .achieve-item
+                        p.achieve-item__text Победитель открытого чемпионата России по Вин-Чун в 2014г.
+
+
+        section.advantage
+            header.section__header
+                h2.section__title Плюсы нашего летнего лагеря
+                p.section__subtitle Почему вам стоит отдать ребёнка именно в наш спортивный лагерь
+            
+            .advantage__content
+                article.advantage-item
+                    .advantage-item__img
+                        img(src="#", alt="")
+                    p.advantage-item__desc Активный отдых на природе
+
+                article.advantage-item
+                    .advantage-item__img
+                        img(src="#", alt="")
+                    p.advantage-item__desc Мини-походы в лес
+
+                article.advantage-item
+                    .advantage-item__img
+                        img(src="#", alt="")
+                    p.advantage-item__desc Вечера музыкальной импровизации
+
+                article.advantage-item
+                    .advantage-item__img
+                        img(src="#", alt="")
+                    p.advantage-item__desc Знакомство со славянскими и восточными культурами
+
+                article.advantage-item
+                    .advantage-item__img
+                        img(src="#", alt="")
+                    p.advantage-item__desc Творческие мастерские
+
+                article.advantage-item
+                    .advantage-item__img
+                        img(src="#", alt="")
+                    p.advantage-item__desc Мастер-классы с лучшими мастерами Вин-Чун
+
+        section.testimonials
+            header.section__header
+                h2.section__title Отзывы о лагере
+                p.section__subtitle Участников лагеря и их родителей
+
+            .testimonials__content
+                article.comment
+                    .comment__content
+                        video(src="#")
+                    .comment__text
+                        p.comment__feedback "Мне так нравится в этом лагере, что я тут один до зимы останусь"
+                    .comment__reviewer
+                        .reviewer-item
+                            .reviewer-item__text
+                                p.reviewer-item__name Юрий Артюхов
+                                p.reviewer-item__status Ученик школы Вин-Чун «Улыбка дракона»
+                .testimonials__reviewer
+                    article.reviewer-item
+                        .reviewer-item__photo
+                            img(src="#", alt="")
+                        .reviewer-item__text
+                                p.reviewer-item__name Юрий Артюхов
+                                p.reviewer-item__status Ученик школы Вин-Чун «Улыбка дракона»
+
+                    article.reviewer-item
+                        .reviewer-item__photo
+                            img(src="#", alt="")
+                        .reviewer-item__text
+                                p.reviewer-item__name Егор Шакура
+                                p.reviewer-item__status Летний лагерь «Улыбка дракона» 2015
+
+                    article.reviewer-item
+                        .reviewer-item__photo
+                            img(src="#", alt="")
+                        .reviewer-item__text
+                                p.reviewer-item__name Людмила Викторовна
+                                p.reviewer-item__status Летний лагерь «Улыбка дракона» 2015
+
+        footer.footer
+            .footer__info
+                .footer__text
+                    h3.footer__title Есть вопрос? Звони прямо сейчас:
+                    a.footer__phone(href="tel:+79521114367") +7 (952) 111 43 67
+
+                .footer__text
+                    h3.footer__title Место проведения
+                    p.footer__subtitle «Следопыты»: Неманский район, пос. Большое село <br> «Улыбка дракона»: г. Светлогорск
+
+                .footer__text
+                    h3.footer__title Смены
+                    p.footer__subtitle I Смена с 4 по 17 июля «Следопыты», для детей от 8 лет. <br> II Смена с 10 по 24 августа «Улыбка дракона» для детей от 6 лет.
+
+                .footer__logo
+                    .logo.logo--footer
+                        img(src="#", alt="")
+                        .logo__text
+                            p.logo__title Всероссийская школа боевого искусства
+                            p.logo__subtitle Вину-Чун "Улыбка дракона"
+
+                .footer__button
+                    a.button(href="#") Подробнее
+
+            .footer__form
+                .form-contact
+                    form.form(action="")
+                        legend.form__legend
+                            p.form__subtitle Осталось всего 8 мест в каждую смену
+                            h2.form__title Запишите своего ребёнка в лагерь
+
+                        .form__input-group
+                            input.form__input(type="text" name="name" placeholder="Имя" required)
+
+                        .form__input-group
+                            input.form__input(type="tel" name="phone" placeholder="Телефон" required)
+
+                        .form__input-group
+                            input.form__input(type="email" name="email" placeholder="Email" required)
+
+                        .form__input-group
+                            select.form__input(name="camp")
+                                option(value="pathfinder") "Следопыт" с 7 по 12 июня.
+                                option(value="dragon") "Улыбка дракона" с 10 по 24 августа.
+
+                        .form__input-group
+                            input.form__checkbox(type="checkbox" name="policy" required checked)
+                            label(for="form__checkbox").form__label-checkbox Принимаю <a class="form__policy" href="#">Условия пользования</a> и <a class="form__policy" href="#">Политику безопасности</a>
+                        
+                        .form__input-group
+                            input.form__submit.cta-button(type="sybmit" value="Подать заявку")
+
+            .footer__copy
+                p.footer__copyrights © 2011-2019 Всероссийская школа боевого искусства Вин-ЧУН «Улыбка дракона»
+                a.footer__policy(href="#") Политика конфиденциальности
+                p.footer__rights All rights reserved. By <span>Katz Can't Read</span>
