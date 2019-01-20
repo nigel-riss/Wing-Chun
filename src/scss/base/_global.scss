@@ -1,0 +1,20 @@
+html {
+    // box model
+    box-sizing: border-box;
+
+    // typography
+    font-size: 16px;
+    // font-family: $mainFont;
+}
+
+body {
+    // visual
+    overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+    // box model
+    box-sizing: inherit;
+}

@@ -1,2 +1,9 @@
 @import './base/vars';
 @import './base/global';
+
+// modules
+@import './modules/hero.scss';
+@import './modules/logo.scss';
+@import './modules/contacts.scss';
+@import './modules/form.scss';
+@import './modules/program.scss';

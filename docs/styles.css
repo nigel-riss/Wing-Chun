@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px; }
+
+body {
+  overflow-x: hidden; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+.hero {
+  padding: 25px;
+  background-color: #000000; }
+
+.logo__title {
+  margin: 0;
+  color: #ffffff; }
+
+.logo__subtitle {
+  margin: 0;
+  color: #ffffff; }
+
+.program__banner {
+  background-image: url("/dist/img/team.jpg"); }
