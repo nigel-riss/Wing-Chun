@@ -1,0 +1,34 @@
+.contacts {
+
+}
+
+.contacts__phone {
+    // typography
+    color: $Cardinal;
+    font-size: 0.85rem;
+
+    // visual
+    text-decoration: none;
+}
+
+.contacts__address {
+
+}
+
+.contacts__city {
+    // box model
+    margin: 0;
+
+    // typography
+    color: $white;
+    font-size: 0.85em;
+}
+
+.contacts__street {
+    // box model
+    margin: 0;
+
+    // typography
+    color: $white;
+    font-size: 0.85em;
+}

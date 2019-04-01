@@ -1,5 +1,6 @@
 .hero {
     // box model
+    height: 90vh;
     padding: 25px;
 
     // visual
@@ -8,5 +9,37 @@
 
 .hero__top {
     // box model
-    // display: flex;
+    margin-bottom: 150px;
 }
+
+.hero__contacts {
+    // box model
+    margin-top: -30px;
+    
+    // typography
+    text-align: right;
+}
+
+.hero__content {
+
+}
+
+.hero__caption {
+
+}
+
+.hero__button {
+    // typography
+    text-align: center;
+}
+
+.hero__specify {
+    // box model
+    display: none;
+}
+
+.hero__form {
+    // box model
+    display: none;
+}
+

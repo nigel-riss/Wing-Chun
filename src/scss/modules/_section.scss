@@ -1,0 +1,29 @@
+.section {
+
+}
+
+.section__header {
+    // box model
+    margin-bottom: 50px;
+}
+
+.section__title {
+    // box model
+    margin: 0;
+    margin-bottom: 20px;
+
+    // typography
+    color: $Cardinal;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.section__subtitle {
+    // box model
+    margin: 0;
+
+    // typography
+    color: $black;
+    font-size: 1rem;
+    text-align: center;
+}

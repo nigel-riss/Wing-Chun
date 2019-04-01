@@ -1,5 +1,16 @@
 .logo {
+    // box model
+}
 
+.logo__image {
+    // box model
+    width: 75px;
+}
+
+.logo__image img {
+    // box model
+    width: 100%;
+    height: 100%;
 }
 
 .logo__title {
@@ -8,6 +19,7 @@
 
     // typography
     color: $white;
+    font-size: 0.75rem;
 }
 
 .logo__subtitle {
@@ -15,5 +27,6 @@
     margin: 0;
     
     // typography
-    color: $white;
+    color: $Cardinal;
+    font-size: 1rem;
 }

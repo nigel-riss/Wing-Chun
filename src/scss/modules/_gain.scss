@@ -1,0 +1,10 @@
+.gain {
+    // box model
+    padding: 25px;
+}
+
+.gain__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

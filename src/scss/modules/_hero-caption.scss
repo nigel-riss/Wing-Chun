@@ -1,0 +1,33 @@
+.hero-caption {
+
+}
+
+.hero-caption__title {
+    // box model
+    margin: 0;
+    margin-bottom: 50px;
+
+    // typography
+    color: $white;
+    font-size: 1rem;
+}
+
+.hero-caption__motto {
+    // box model
+    margin: 0;
+    margin-bottom: 50px;
+
+    // typography
+    color: $white;
+    font-size: 2rem;
+}
+
+.hero-caption__cta {
+    // box model
+    margin: 0;
+    margin-bottom: 25px;
+
+    // typography
+    color: $white;
+    text-align: center;
+}

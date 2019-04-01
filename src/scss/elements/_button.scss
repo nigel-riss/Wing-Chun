@@ -1,0 +1,32 @@
+.button {
+    // box model
+    display: inline-block;
+    vertical-align: top;
+    min-width: 200px;
+    padding: 0 20px;
+
+    // typography
+    color: $white;
+    font-size: 0.85rem;
+    line-height: 44px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    // visual
+    border: 2px solid $Cardinal;
+    border-radius: 25px;
+    background-color: $Cardinal;
+    transition: all 0.3s ease-out;
+
+    &--ghost {
+        // visual
+        background: transparent;
+    }
+
+    &--red {
+        // visual
+        background-color: $Cardinal;
+        color: $white;
+    }
+}
