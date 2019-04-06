@@ -147,7 +147,7 @@ template {
 @font-face {
   font-family: 'Montserrat';
   src: url("./fonts/subset-Montserrat-Regular.woff2") format("woff2"), url("./fonts/subset-Montserrat-Regular.woff") format("woff");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal; }
 
 @font-face {
@@ -186,11 +186,7 @@ body {
   padding: 25px;
   background-color: #000000; }
 
-.hero__top {
-  margin-bottom: 150px; }
-
 .hero__contacts {
-  margin-top: -30px;
   text-align: right; }
 
 .hero__button {
@@ -202,7 +198,12 @@ body {
 .hero__form {
   display: none; }
 
+.logo {
+  display: flex;
+  align-items: center; }
+
 .logo__image {
+  flex-shrink: 0;
   width: 75px; }
 
 .logo__image img {
@@ -211,13 +212,18 @@ body {
 
 .logo__title {
   margin: 0;
+  margin-left: 15px;
   color: #ffffff;
-  font-size: 0.75rem; }
-
-.logo__subtitle {
-  margin: 0;
-  color: #cd1840;
-  font-size: 1rem; }
+  font-size: 0.8rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  text-transform: uppercase; }
+  .logo__title em {
+    color: #cd1840;
+    font-style: normal; }
+    @media (min-width: 600px) {
+      .logo__title em {
+        display: block; } }
 
 .main-nav {
   display: none; }
