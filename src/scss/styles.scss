@@ -1,18 +1,19 @@
-@import './base/vars';
-@import './base/global';
+@import 'base/normalize';
+@import 'base/vars';
+@import 'base/global';
 
 // modules
-@import './modules/hero.scss';
-@import './modules/logo.scss';
-@import './modules/main-nav.scss';
-@import './modules/contacts.scss';
-@import './modules/form.scss';
-@import './modules/program.scss';
-@import './modules/menu-button.scss';
-@import './modules/hero-caption.scss';
-@import './modules/section.scss';
-@import './modules/gain.scss';
-@import './modules/gain-item.scss';
+@import 'modules/hero.scss';
+@import 'modules/logo.scss';
+@import 'modules/main-nav.scss';
+@import 'modules/contacts.scss';
+@import 'modules/form.scss';
+@import 'modules/program.scss';
+@import 'modules/menu-button.scss';
+@import 'modules/hero-caption.scss';
+@import 'modules/section.scss';
+@import 'modules/gain.scss';
+@import 'modules/gain-item.scss';
 
 // elements
-@import './elements/button.scss';
+@import 'elements/button.scss';

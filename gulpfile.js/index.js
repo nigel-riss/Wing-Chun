@@ -6,9 +6,10 @@ const sass = require('gulp-sass');
 const bSync = require('browser-sync');
 
 const dirs = {
+  docs: './docs',
   pug: './src/pug/**/*.pug',
   scss: './src/scss/**/*.scss',
-  docs: './docs'
+  styles: './src/scss/styles.scss'
 }
 
 
@@ -26,7 +27,7 @@ let pugRender = () => (
  * Compiles scss files to styles.css
  */
 let styles = () => (
-  gulp.src(dirs.scss)
+  gulp.src(dirs.styles)
     .pipe(sass())
     .pipe(gulp.dest(dirs.docs))
     .pipe(bSync.stream())

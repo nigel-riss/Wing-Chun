@@ -14,9 +14,9 @@
     text-transform: uppercase;
     
     // visual
-    border: 2px solid $Cardinal;
+    border: 2px solid $cardinal;
     border-radius: 25px;
-    background-color: $Cardinal;
+    background-color: $cardinal;
     transition: all 0.3s ease-out;
 
     &--ghost {
@@ -26,7 +26,7 @@
 
     &--red {
         // visual
-        background-color: $Cardinal;
+        background-color: $cardinal;
         color: $white;
     }
 }

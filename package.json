@@ -19,9 +19,10 @@
     "url": "https://github.com/drsg85/Wing-Chun/issues"
   },
   "homepage": "https://github.com/drsg85/Wing-Chun#readme",
-  "dependencies": {
+  "devDependencies": {
     "browser-sync": "^2.26.3",
     "gulp": "^4.0.0",
+    "gulp-cli": "^2.1.0",
     "gulp-pug": "^4.0.1",
     "gulp-sass": "^4.0.2"
   }
