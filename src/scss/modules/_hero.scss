@@ -1,15 +1,16 @@
 .hero {
     // box model
-    height: 90vh;
-    padding: 25px;
+    // height: 90vh;
+    padding: 30px;
+    padding-bottom: 60px;
 
     // visual
-    background-color: $black;
+    background-color: $dark;
 }
 
 .hero__top {
     // box model
-    // margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 
 .hero__contacts {

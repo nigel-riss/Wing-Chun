@@ -182,9 +182,12 @@ body {
   box-sizing: inherit; }
 
 .hero {
-  height: 90vh;
-  padding: 25px;
-  background-color: #000000; }
+  padding: 30px;
+  padding-bottom: 60px;
+  background-color: #222222; }
+
+.hero__top {
+  margin-bottom: 120px; }
 
 .hero__contacts {
   text-align: right; }
@@ -200,7 +203,9 @@ body {
 
 .logo {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 30px;
+  max-width: 300px; }
 
 .logo__image {
   flex-shrink: 0;
@@ -214,9 +219,10 @@ body {
   margin: 0;
   margin-left: 15px;
   color: #ffffff;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 900;
   letter-spacing: 0.05em;
+  line-height: 1.4;
   text-transform: uppercase; }
   .logo__title em {
     color: #cd1840;
@@ -230,18 +236,22 @@ body {
 
 .contacts__phone {
   color: #cd1840;
-  font-size: 0.85rem;
+  font-size: 1.25rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
   text-decoration: none; }
 
-.contacts__city {
-  margin: 0;
+.contacts__address {
   color: #ffffff;
-  font-size: 0.85em; }
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.5; }
+
+.contacts__city {
+  margin: 0; }
 
 .contacts__street {
-  margin: 0;
-  color: #ffffff;
-  font-size: 0.85em; }
+  margin: 0; }
 
 .program__banner {
   background-image: url("/dist/img/team.jpg"); }
@@ -251,21 +261,33 @@ body {
 
 .hero-caption__title {
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   color: #ffffff;
-  font-size: 1rem; }
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  text-transform: uppercase; }
 
 .hero-caption__motto {
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   color: #ffffff;
-  font-size: 2rem; }
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  text-transform: uppercase; }
 
 .hero-caption__cta {
   margin: 0;
   margin-bottom: 25px;
-  color: #ffffff;
-  text-align: center; }
+  color: #cd1840;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase; }
 
 .section__header {
   margin-bottom: 50px; }
