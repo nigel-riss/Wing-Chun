@@ -1,9 +1,14 @@
 .logo {
     // box model
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    max-width: 300px;
 }
 
 .logo__image {
     // box model
+    flex-shrink: 0;
     width: 75px;
 }
 
@@ -16,17 +21,24 @@
 .logo__title {
     // box model
     margin: 0;
+    margin-left: 15px;
 
     // typography
     color: $white;
     font-size: 0.75rem;
-}
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    line-height: 1.4;
+    text-transform: uppercase;
 
-.logo__subtitle {
-    // box model
-    margin: 0;
-    
-    // typography
-    color: $Cardinal;
-    font-size: 1rem;
+    em {
+        // typography
+        color: $cardinal;
+        font-style: normal;
+
+        @include atTablet {
+            // box model
+            display: block;
+        }
+    }
 }

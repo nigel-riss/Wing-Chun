@@ -5,21 +5,29 @@
 .hero-caption__title {
     // box model
     margin: 0;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
     // typography
     color: $white;
     font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
 }
 
 .hero-caption__motto {
     // box model
     margin: 0;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 
     // typography
     color: $white;
-    font-size: 2rem;
+    // color: $cardinal;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
 }
 
 .hero-caption__cta {
@@ -28,6 +36,11 @@
     margin-bottom: 25px;
 
     // typography
-    color: $white;
+    color: $cardinal;
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
     text-align: center;
+    text-transform: uppercase;
 }

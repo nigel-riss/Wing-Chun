@@ -4,31 +4,29 @@
 
 .contacts__phone {
     // typography
-    color: $Cardinal;
-    font-size: 0.85rem;
+    color: $cardinal;
+    font-size: 1.25rem;
+    font-weight: 900;
+    letter-spacing: 0.05em;
 
     // visual
     text-decoration: none;
 }
 
 .contacts__address {
-
+    // typography
+    color: $white;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.5;
 }
 
 .contacts__city {
     // box model
     margin: 0;
-
-    // typography
-    color: $white;
-    font-size: 0.85em;
 }
 
 .contacts__street {
     // box model
     margin: 0;
-
-    // typography
-    color: $white;
-    font-size: 0.85em;
 }
