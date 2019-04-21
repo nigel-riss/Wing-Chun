@@ -306,7 +306,9 @@ body {
   text-align: center; }
 
 .gain {
-  padding: 25px; }
+  padding: 25px;
+  background-image: url("./img/logo/logo-white.png");
+  background-repeat: no-repeat; }
 
 .gain__items {
   display: flex;
